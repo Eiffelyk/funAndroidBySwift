@@ -46,7 +46,7 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+/Pods/
 ios/AnItemForACar_RN.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 ios/AnItemForACar_RN.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 ios/AnItemForACar_RN.xcworkspace/contents.xcworkspacedata
