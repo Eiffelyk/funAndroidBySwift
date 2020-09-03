@@ -1,0 +1,60 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+ios/AnItemForACar_RN.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ios/AnItemForACar_RN.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/AnItemForACar_RN.xcworkspace/contents.xcworkspacedata
+ios/AnItemForACar_RN.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+/ios/Podfile.lock
+yarn.lock
+
+config.gradle
+jsconfig.json
+fastlane
+Gemfile
