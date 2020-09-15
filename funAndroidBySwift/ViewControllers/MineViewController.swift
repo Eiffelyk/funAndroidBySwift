@@ -99,12 +99,12 @@ extension MineViewController{
     }
     func fetchData() -> [SectionModel<Void,ListItem>] {
         let section1Items = [
-            ListItem(title: "积分", iconFont: .integral, viewController: LoginViewController()),
-            ListItem(title: "分享", iconFont: .share, viewController: LoginViewController()),
-            ListItem(title: "收藏", iconFont: .heart, viewController: LoginViewController(),iconColor: .red)
+            ListItem(title: "我的积分", iconFont: .integral, viewController: MyIntegralViewController()),
+            ListItem(title: "我的分享", iconFont: .share, viewController: MyShareViewController()),
+            ListItem(title: "我的收藏", iconFont: .heart, viewController: MyCollectionViewController())
         ]
         let section2Items = [
-            ListItem(title: "设置", iconFont: .setting, viewController: LoginViewController())
+            ListItem(title: "设置", iconFont: .setting, viewController: SettingsViewController())
         ]
         
         let sectionModels = [section1Items,section2Items].map{

@@ -39,10 +39,10 @@ extension RootTabBarController {
     
     private func initViewControllersConfig() {
         let items = [
-            Item(title: "首页", icon: Iconfont.home, vc: MineViewController()),
-            Item(title: "体系", icon: Iconfont.tree, vc: MineViewController()),
-            Item(title: "公众号", icon: Iconfont.publicPlat, vc: MineViewController()),
-            Item(title: "项目", icon: Iconfont.project, vc: MineViewController()),
+            Item(title: "首页", icon: Iconfont.home, vc: HomeViewController()),
+            Item(title: "体系", icon: Iconfont.tree, vc: TreeViewController()),
+            Item(title: "公众号", icon: Iconfont.publicPlat, vc: PublicPlatViewController()),
+            Item(title: "项目", icon: Iconfont.project, vc: ProjectViewController()),
             Item(title: "我的", icon: Iconfont.user, vc: MineViewController()),
         ]
         
