@@ -27,7 +27,7 @@ extension Reactive where Base: UINavigationBar{
 }
 
 extension ObservableType{
-    func catchErrorJustComplet() -> Observable<Element> {
+    func catchErrorJustComplete() -> Observable<Element> {
         return catchError { (_) -> Observable<Element> in
             return Observable.empty()
         }

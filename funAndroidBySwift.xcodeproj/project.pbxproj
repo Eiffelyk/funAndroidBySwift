@@ -40,6 +40,15 @@
 		9386EBE325110CD600A389B1 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */; };
 		9386EBE525110D0B00A389B1 /* myShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE425110D0B00A389B1 /* myShareViewController.swift */; };
 		9386EBE725110D4900A389B1 /* MyIntegralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */; };
+		9386EBE92511A3D200A389B1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */; };
+		9386EBEB2511A40D00A389B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBEA2511A40D00A389B1 /* ViewModel.swift */; };
+		9386EBED2511A49B00A389B1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBEC2511A49B00A389B1 /* ActivityIndicator.swift */; };
+		9386EBEF2511A8F300A389B1 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBEE2511A8F300A389B1 /* ErrorTracker.swift */; };
+		9386EBF12511B01C00A389B1 /* UesrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF02511B01C00A389B1 /* UesrAPI.swift */; };
+		9386EBF32511B2EA00A389B1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF22511B2EA00A389B1 /* Base.swift */; };
+		9386EBF52511B6B100A389B1 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF42511B6B100A389B1 /* SwitchTableViewCell.swift */; };
+		9386EBF72511B80600A389B1 /* SingleBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF62511B80600A389B1 /* SingleBtnTableViewCell.swift */; };
+		9386EBF92511BC6000A389B1 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF82511BC6000A389B1 /* NetworkLogger.swift */; };
 		A609B997085A7861935FFAF2 /* Pods_funAndroidBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BF054CD69687A7C69BEC2A /* Pods_funAndroidBySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +112,15 @@
 		9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		9386EBE425110D0B00A389B1 /* myShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShareViewController.swift; sourceTree = "<group>"; };
 		9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntegralViewController.swift; sourceTree = "<group>"; };
+		9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		9386EBEA2511A40D00A389B1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9386EBEC2511A49B00A389B1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9386EBEE2511A8F300A389B1 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		9386EBF02511B01C00A389B1 /* UesrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UesrAPI.swift; sourceTree = "<group>"; };
+		9386EBF22511B2EA00A389B1 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		9386EBF42511B6B100A389B1 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		9386EBF62511B80600A389B1 /* SingleBtnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBtnTableViewCell.swift; sourceTree = "<group>"; };
+		9386EBF82511BC6000A389B1 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +216,8 @@
 		931C33CD2500CB11008A6A4B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */,
+				9386EBEA2511A40D00A389B1 /* ViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -206,6 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				9386EBCE2510982300A389B1 /* Request.swift */,
+				9386EBF02511B01C00A389B1 /* UesrAPI.swift */,
+				9386EBF22511B2EA00A389B1 /* Base.swift */,
+				9386EBF82511BC6000A389B1 /* NetworkLogger.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -214,6 +237,8 @@
 			isa = PBXGroup;
 			children = (
 				9386EBD42510C25B00A389B1 /* MineHeadView.swift */,
+				9386EBF42511B6B100A389B1 /* SwitchTableViewCell.swift */,
+				9386EBF62511B80600A389B1 /* SingleBtnTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +272,8 @@
 		931C33D22500CB11008A6A4B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				9386EBEC2511A49B00A389B1 /* ActivityIndicator.swift */,
+				9386EBEE2511A8F300A389B1 /* ErrorTracker.swift */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -484,11 +511,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9386EBCB2510704D00A389B1 /* UIViewController.swift in Sources */,
+				9386EBF12511B01C00A389B1 /* UesrAPI.swift in Sources */,
 				9386EBDB2511098E00A389B1 /* TreeViewController.swift in Sources */,
 				9386EBCF2510982300A389B1 /* Request.swift in Sources */,
 				931C33A225008BA8008A6A4B /* ViewController.swift in Sources */,
 				931C33E02500F331008A6A4B /* UIColor+Hex.swift in Sources */,
 				9386EBD72511026B00A389B1 /* LoginViewController.swift in Sources */,
+				9386EBEB2511A40D00A389B1 /* ViewModel.swift in Sources */,
 				931C33E62500FC70008A6A4B /* BaseViewController.swift in Sources */,
 				931C33DE2500F270008A6A4B /* RootTabBarController.swift in Sources */,
 				931C33E22500F8E2008A6A4B /* Iconfont.swift in Sources */,
@@ -496,11 +525,17 @@
 				931C33DA2500D22A008A6A4B /* AppState.swift in Sources */,
 				931C33E42500F9EB008A6A4B /* UIImage+Iconfont.swift in Sources */,
 				9386EBE525110D0B00A389B1 /* myShareViewController.swift in Sources */,
+				9386EBF72511B80600A389B1 /* SingleBtnTableViewCell.swift in Sources */,
 				9386EBDF25110BFE00A389B1 /* PublicPlatViewController.swift in Sources */,
 				9386EBDD251109B300A389B1 /* ProjectViewController.swift in Sources */,
+				9386EBED2511A49B00A389B1 /* ActivityIndicator.swift in Sources */,
 				9386EBCD2510958900A389B1 /* Rx.swift in Sources */,
 				9386EBC925106B9900A389B1 /* HUD.swift in Sources */,
+				9386EBEF2511A8F300A389B1 /* ErrorTracker.swift in Sources */,
+				9386EBF32511B2EA00A389B1 /* Base.swift in Sources */,
 				931C339E25008BA8008A6A4B /* AppDelegate.swift in Sources */,
+				9386EBF92511BC6000A389B1 /* NetworkLogger.swift in Sources */,
+				9386EBF52511B6B100A389B1 /* SwitchTableViewCell.swift in Sources */,
 				9386EBD12510B16900A389B1 /* MineViewController.swift in Sources */,
 				9386EBE325110CD600A389B1 /* MyCollectionViewController.swift in Sources */,
 				9386EBE725110D4900A389B1 /* MyIntegralViewController.swift in Sources */,
@@ -510,6 +545,7 @@
 				931C33D82500CD50008A6A4B /* UserModel.swift in Sources */,
 				931C33A025008BA8008A6A4B /* SceneDelegate.swift in Sources */,
 				9386EBE125110CA600A389B1 /* SettingsViewController.swift in Sources */,
+				9386EBE92511A3D200A389B1 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
