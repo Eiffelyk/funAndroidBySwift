@@ -26,6 +26,7 @@
 		931C33E82501D87E008A6A4B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C33E72501D87E008A6A4B /* Theme.swift */; };
 		9361C1EC25199A42006DDB11 /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361C1EA25199A42006DDB11 /* RegisterViewController.storyboard */; };
 		9361C1ED25199A42006DDB11 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361C1EB25199A42006DDB11 /* LoginViewController.storyboard */; };
+		9361C1F52519D84B006DDB11 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361C1F42519D84B006DDB11 /* RegisterViewModel.swift */; };
 		9386EBC925106B9900A389B1 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBC825106B9900A389B1 /* HUD.swift */; };
 		9386EBCB2510704D00A389B1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBCA2510704D00A389B1 /* UIViewController.swift */; };
 		9386EBCD2510958900A389B1 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBCC2510958900A389B1 /* Rx.swift */; };
@@ -40,7 +41,7 @@
 		9386EBDF25110BFE00A389B1 /* PublicPlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBDE25110BFE00A389B1 /* PublicPlatViewController.swift */; };
 		9386EBE125110CA600A389B1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE025110CA600A389B1 /* SettingsViewController.swift */; };
 		9386EBE325110CD600A389B1 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */; };
-		9386EBE525110D0B00A389B1 /* myShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE425110D0B00A389B1 /* myShareViewController.swift */; };
+		9386EBE525110D0B00A389B1 /* MyShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE425110D0B00A389B1 /* MyShareViewController.swift */; };
 		9386EBE725110D4900A389B1 /* MyIntegralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */; };
 		9386EBE92511A3D200A389B1 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */; };
 		9386EBEB2511A40D00A389B1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBEA2511A40D00A389B1 /* ViewModel.swift */; };
@@ -102,6 +103,7 @@
 		931C33E72501D87E008A6A4B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		9361C1EA25199A42006DDB11 /* RegisterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
 		9361C1EB25199A42006DDB11 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		9361C1F42519D84B006DDB11 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		9386EBC825106B9900A389B1 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		9386EBCA2510704D00A389B1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		9386EBCC2510958900A389B1 /* Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
@@ -116,7 +118,7 @@
 		9386EBDE25110BFE00A389B1 /* PublicPlatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicPlatViewController.swift; sourceTree = "<group>"; };
 		9386EBE025110CA600A389B1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
-		9386EBE425110D0B00A389B1 /* myShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myShareViewController.swift; sourceTree = "<group>"; };
+		9386EBE425110D0B00A389B1 /* MyShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShareViewController.swift; sourceTree = "<group>"; };
 		9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIntegralViewController.swift; sourceTree = "<group>"; };
 		9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		9386EBEA2511A40D00A389B1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */,
 				9386EBEA2511A40D00A389B1 /* ViewModel.swift */,
 				9386EBFA2511C24B00A389B1 /* LoginModelView.swift */,
+				9361C1F42519D84B006DDB11 /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -274,7 +277,7 @@
 				9386EBDE25110BFE00A389B1 /* PublicPlatViewController.swift */,
 				9386EBE025110CA600A389B1 /* SettingsViewController.swift */,
 				9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */,
-				9386EBE425110D0B00A389B1 /* myShareViewController.swift */,
+				9386EBE425110D0B00A389B1 /* MyShareViewController.swift */,
 				9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */,
 				9386EBFC2511E9C700A389B1 /* RegisterViewController.swift */,
 			);
@@ -539,7 +542,7 @@
 				9386EBFB2511C24B00A389B1 /* LoginModelView.swift in Sources */,
 				931C33DA2500D22A008A6A4B /* AppState.swift in Sources */,
 				931C33E42500F9EB008A6A4B /* UIImage+Iconfont.swift in Sources */,
-				9386EBE525110D0B00A389B1 /* myShareViewController.swift in Sources */,
+				9386EBE525110D0B00A389B1 /* MyShareViewController.swift in Sources */,
 				9386EBF72511B80600A389B1 /* SingleBtnTableViewCell.swift in Sources */,
 				9386EBDF25110BFE00A389B1 /* PublicPlatViewController.swift in Sources */,
 				9386EBDD251109B300A389B1 /* ProjectViewController.swift in Sources */,
@@ -558,6 +561,7 @@
 				9386EBD92511095A00A389B1 /* HomeViewController.swift in Sources */,
 				931C33DC2500E3E1008A6A4B /* FileUtils.swift in Sources */,
 				931C33E82501D87E008A6A4B /* Theme.swift in Sources */,
+				9361C1F52519D84B006DDB11 /* RegisterViewModel.swift in Sources */,
 				931C33D82500CD50008A6A4B /* UserModel.swift in Sources */,
 				931C33A025008BA8008A6A4B /* SceneDelegate.swift in Sources */,
 				9386EBE125110CA600A389B1 /* SettingsViewController.swift in Sources */,

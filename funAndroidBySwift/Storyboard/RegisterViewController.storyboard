@@ -107,12 +107,12 @@
                     </view>
                     <connections>
                         <outlet property="passwordContainer" destination="W4b-Ny-Z1r" id="Uw0-Yx-2Lo"/>
-                        <outlet property="passwordTF" destination="KPV-WB-0Lr" id="rhW-Kn-uef"/>
+                        <outlet property="passwordTF" destination="KPV-WB-0Lr" id="M80-ka-xmU"/>
                         <outlet property="registerBtn" destination="dk4-eF-Q29" id="q5K-NH-pDK"/>
                         <outlet property="repPasswordContainer" destination="dzs-LH-V1M" id="OlC-ET-aQy"/>
-                        <outlet property="repPasswordTF" destination="ZxR-XC-dPT" id="K9q-tx-TrM"/>
+                        <outlet property="repPasswordTF" destination="ZxR-XC-dPT" id="4dH-Rm-W8S"/>
                         <outlet property="userNameContainer" destination="Ock-6X-4SV" id="4dD-xb-1Dn"/>
-                        <outlet property="userNameUF" destination="D7b-i5-bwc" id="rrb-YI-UWF"/>
+                        <outlet property="userNameTF" destination="D7b-i5-bwc" id="4YU-Jk-ag2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AmC-Fh-O2h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

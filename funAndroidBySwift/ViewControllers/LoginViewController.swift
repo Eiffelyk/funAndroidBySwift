@@ -44,7 +44,7 @@ class LoginViewController: BaseViewController {
         .disposed(by: disposeBag)
         
         toRegisterBtn.rx.tap.subscribe(onNext: { [ weak self ] in
-            if let registerVC = RegitsterViewController.fromStoryboard(){
+            if let registerVC = RegisterViewController.fromStoryboard(){
                 self?.navigationController?.pushViewController(registerVC, animated: true)
             }
         })
