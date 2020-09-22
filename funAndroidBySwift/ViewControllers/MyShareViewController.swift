@@ -9,5 +9,7 @@
 import UIKit
 
 class MyShareViewController: BaseViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

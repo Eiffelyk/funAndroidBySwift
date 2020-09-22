@@ -9,5 +9,7 @@
 import UIKit
 
 class MyIntegralViewController: BaseViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }

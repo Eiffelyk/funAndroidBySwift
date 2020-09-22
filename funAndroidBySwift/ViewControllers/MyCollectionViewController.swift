@@ -9,5 +9,7 @@
 import UIKit
 
 class MyCollectionViewController: BaseViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
