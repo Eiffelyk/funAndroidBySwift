@@ -28,7 +28,7 @@ extension TargetType{
 }
 
 let defaultPlugins = { () -> [PluginType] in
-    #if DEBUG
+       #if DEBUG
        return [NetworkLogger()]
        #else
        return []

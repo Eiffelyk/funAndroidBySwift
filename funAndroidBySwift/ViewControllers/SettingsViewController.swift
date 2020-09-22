@@ -49,7 +49,7 @@ class SettingsViewController: BaseViewController {
         viewModel.loading.asObservable().bind(to: showLoading).disposed(by: disposeBag)
         viewModel.error.asObservable().bind(to: showError).disposed(by: disposeBag)
         let input = SettingsViewModel.Input(switchTheme: self.switchTheme.asObservable(), logout: self.logout.asObservable())
-        let output = viewModel.transform(intput: input)
+        let output = viewModel.transform(input: input)
         output.logoutSuccess?.subscribe(onNext: {[weak self] in
             self?.navigationController?.popViewController(animated: true)
             }).disposed(by: disposeBag)

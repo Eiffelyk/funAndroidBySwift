@@ -13,7 +13,7 @@ import RxCocoa
 protocol ViewModelType {
     associatedtype Input
     associatedtype Output
-    func transform(intput: Input) -> Output
+    func transform(input: Input) -> Output
 }
 
 class ViewModel {

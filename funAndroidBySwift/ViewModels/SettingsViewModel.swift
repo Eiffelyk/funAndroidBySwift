@@ -18,13 +18,13 @@ class SettingsViewModel: ViewModel,ViewModelType {
     struct Output {
         var logoutSuccess: Observable<Void>?
     }
-    func transform(intput: Input) -> Output {
-        intput.switchTheme
+    func transform(input: Input) -> Output {
+        input.switchTheme
             .map{$0 ? ThemeType.dark : ThemeType.light}
             .bind(to: appTheme.switcher)
             .disposed(by: disposeBag)
         var logoutSuccess: Observable<Void>?
-        if let logout = intput.logout{
+        if let logout = input.logout{
             logoutSuccess = logout.flatMapLatest{(_) -> Observable<Void> in
                 return UserAPI.provider.rx
                     .request(.logout)

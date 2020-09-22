@@ -43,9 +43,9 @@ extension UserAPI: TargetType{
     var task: Task {
         switch self {
         case .login(let userName, let pwd):
-            return .requestParameters(parameters: ["userName": userName, "password": pwd], encoding: URLEncoding.default)
+            return .requestParameters(parameters: ["username": userName, "password": pwd], encoding: URLEncoding.default)
         case .register(let userName, let pwd, let rePwd):
-            return .requestParameters(parameters: ["userName": userName, "password": pwd, "repassword": rePwd], encoding: URLEncoding.default)
+            return .requestParameters(parameters: ["username": userName, "password": pwd, "repassword": rePwd], encoding: URLEncoding.default)
         default:
             return .requestPlain
         }

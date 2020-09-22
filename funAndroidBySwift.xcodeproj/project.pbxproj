@@ -24,6 +24,8 @@
 		931C33E42500F9EB008A6A4B /* UIImage+Iconfont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C33E32500F9EB008A6A4B /* UIImage+Iconfont.swift */; };
 		931C33E62500FC70008A6A4B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C33E52500FC70008A6A4B /* BaseViewController.swift */; };
 		931C33E82501D87E008A6A4B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931C33E72501D87E008A6A4B /* Theme.swift */; };
+		9361C1EC25199A42006DDB11 /* RegisterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361C1EA25199A42006DDB11 /* RegisterViewController.storyboard */; };
+		9361C1ED25199A42006DDB11 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361C1EB25199A42006DDB11 /* LoginViewController.storyboard */; };
 		9386EBC925106B9900A389B1 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBC825106B9900A389B1 /* HUD.swift */; };
 		9386EBCB2510704D00A389B1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBCA2510704D00A389B1 /* UIViewController.swift */; };
 		9386EBCD2510958900A389B1 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBCC2510958900A389B1 /* Rx.swift */; };
@@ -49,6 +51,8 @@
 		9386EBF52511B6B100A389B1 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF42511B6B100A389B1 /* SwitchTableViewCell.swift */; };
 		9386EBF72511B80600A389B1 /* SingleBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF62511B80600A389B1 /* SingleBtnTableViewCell.swift */; };
 		9386EBF92511BC6000A389B1 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBF82511BC6000A389B1 /* NetworkLogger.swift */; };
+		9386EBFB2511C24B00A389B1 /* LoginModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBFA2511C24B00A389B1 /* LoginModelView.swift */; };
+		9386EBFD2511E9C700A389B1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9386EBFC2511E9C700A389B1 /* RegisterViewController.swift */; };
 		A609B997085A7861935FFAF2 /* Pods_funAndroidBySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BF054CD69687A7C69BEC2A /* Pods_funAndroidBySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +100,8 @@
 		931C33E32500F9EB008A6A4B /* UIImage+Iconfont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Iconfont.swift"; sourceTree = "<group>"; };
 		931C33E52500FC70008A6A4B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		931C33E72501D87E008A6A4B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9361C1EA25199A42006DDB11 /* RegisterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegisterViewController.storyboard; sourceTree = "<group>"; };
+		9361C1EB25199A42006DDB11 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		9386EBC825106B9900A389B1 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		9386EBCA2510704D00A389B1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		9386EBCC2510958900A389B1 /* Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 		9386EBF42511B6B100A389B1 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		9386EBF62511B80600A389B1 /* SingleBtnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBtnTableViewCell.swift; sourceTree = "<group>"; };
 		9386EBF82511BC6000A389B1 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		9386EBFA2511C24B00A389B1 /* LoginModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModelView.swift; sourceTree = "<group>"; };
+		9386EBFC2511E9C700A389B1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,7 @@
 			children = (
 				9386EBE82511A3D200A389B1 /* SettingsViewModel.swift */,
 				9386EBEA2511A40D00A389B1 /* ViewModel.swift */,
+				9386EBFA2511C24B00A389B1 /* LoginModelView.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -246,6 +255,8 @@
 		931C33D02500CB11008A6A4B /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				9361C1EB25199A42006DDB11 /* LoginViewController.storyboard */,
+				9361C1EA25199A42006DDB11 /* RegisterViewController.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -265,6 +276,7 @@
 				9386EBE225110CD600A389B1 /* MyCollectionViewController.swift */,
 				9386EBE425110D0B00A389B1 /* myShareViewController.swift */,
 				9386EBE625110D4900A389B1 /* MyIntegralViewController.swift */,
+				9386EBFC2511E9C700A389B1 /* RegisterViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -442,6 +454,8 @@
 			files = (
 				9386EBD32510BB9F00A389B1 /* iconfont.ttf in Resources */,
 				931C33AA25008BA8008A6A4B /* LaunchScreen.storyboard in Resources */,
+				9361C1EC25199A42006DDB11 /* RegisterViewController.storyboard in Resources */,
+				9361C1ED25199A42006DDB11 /* LoginViewController.storyboard in Resources */,
 				931C33A725008BA8008A6A4B /* Assets.xcassets in Resources */,
 				931C33A525008BA8008A6A4B /* Main.storyboard in Resources */,
 			);
@@ -522,6 +536,7 @@
 				931C33DE2500F270008A6A4B /* RootTabBarController.swift in Sources */,
 				931C33E22500F8E2008A6A4B /* Iconfont.swift in Sources */,
 				9386EBD52510C25B00A389B1 /* MineHeadView.swift in Sources */,
+				9386EBFB2511C24B00A389B1 /* LoginModelView.swift in Sources */,
 				931C33DA2500D22A008A6A4B /* AppState.swift in Sources */,
 				931C33E42500F9EB008A6A4B /* UIImage+Iconfont.swift in Sources */,
 				9386EBE525110D0B00A389B1 /* myShareViewController.swift in Sources */,
@@ -532,6 +547,7 @@
 				9386EBCD2510958900A389B1 /* Rx.swift in Sources */,
 				9386EBC925106B9900A389B1 /* HUD.swift in Sources */,
 				9386EBEF2511A8F300A389B1 /* ErrorTracker.swift in Sources */,
+				9386EBFD2511E9C700A389B1 /* RegisterViewController.swift in Sources */,
 				9386EBF32511B2EA00A389B1 /* Base.swift in Sources */,
 				931C339E25008BA8008A6A4B /* AppDelegate.swift in Sources */,
 				9386EBF92511BC6000A389B1 /* NetworkLogger.swift in Sources */,
